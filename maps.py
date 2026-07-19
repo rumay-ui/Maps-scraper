@@ -61,8 +61,8 @@ if sys.platform == "win32":
 # ============================================================
 # TELEGRAM CONFIGURATION
 # ============================================================
-TELEGRAM_TOKEN = "8057266896:AAGNHRLC-1cZHseYq-auUfveFEFu-6zuWfQ"
-TELEGRAM_CHAT_ID = "7428813404"
+TELEGRAM_TOKEN = ""
+TELEGRAM_CHAT_ID = ""
 
 # ============================================================
 # BANNER
