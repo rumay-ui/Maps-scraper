@@ -101,3 +101,18 @@ playwright install chromium
 
 # Verify installation
 python3 -c "import playwright, requests, rich; print('✅ All dependencies installed')"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
