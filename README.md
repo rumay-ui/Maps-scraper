@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.7%2B-blue?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Version](https://img.shields.io/badge/Version-6.0-orange)
+![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows%20%7C%20Termux-lightgrey)
+
 # 🗺️ Google Maps Scraper
 
 A comprehensive, production-ready Python tool for extracting business and location data from Google Maps, generating interactive HTML reports with 3D visualization, and delivering them directly to your Telegram with zero local storage footprint. Perfect for market research, competitor analysis, lead generation, and location-based intelligence gathering.
@@ -14,23 +19,19 @@ A comprehensive, production-ready Python tool for extracting business and locati
 ## 📋 Table of Contents
 
 - [Overview](#overview)
-- [Features](#-features)
-- [Why This Tool](#-why-this-tool)
-- [Installation](#-installation)
-- [Usage Guide](#-usage-guide)
-- [How to Get Google Maps URL](#-how-to-get-google-maps-url)
-- [Telegram Setup](#-telegram-setup)
-- [Output Format](#-output-format)
-- [Project Structure](#-project-structure)
-- [Requirements](#-requirements)
-- [Configuration](#-configuration)
-- [Troubleshooting](#-troubleshooting)
-- [FAQ](#-faq)
-- [Contributing](#-contributing)
-- [Roadmap](#-roadmap)
-- [Changelog](#-changelog)
-- [Credit](#-credit)
-- [License](#-license)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage Guide](#usage-guide)
+- [How to Get Google Maps URL](#how-to-get-google-maps-url)
+- [Telegram Setup](#telegram-setup)
+- [Output Format](#output-format)
+- [Project Structure](#project-structure)
+- [Requirements](#requirements)
+- [Troubleshooting](#troubleshooting)
+- [FAQ](#faq)
+- [Contributing](#contributing)
+- [Credit](#credit)
+- [License](#license)
 
 ---
 
@@ -55,7 +56,7 @@ The extracted data is then transformed into an interactive HTML report featuring
 
 ### Output & Visualization
 - **Interactive 3D HTML Reports** – Beautiful, self-contained HTML files featuring Three.js 3D models and responsive design.
-- **Multiple 3D Model Options** – Choose from 5 different interactive 3D visualizations (Icosahedron, Torus Knot, Double Rings, Star Burst, DNA Helix).
+- **Multiple 3D Model Options** – Choose from 5 different interactive 3D visualizations.
 - **Clickable Data Table** – Each place name is linked directly to its Google Maps location for instant access.
 - **Responsive Design** – HTML output works seamlessly on desktop, tablet, and mobile devices.
 - **No Local Storage** – All data is processed in memory and sent directly to Telegram without any local file storage.
@@ -74,35 +75,9 @@ The extracted data is then transformed into an interactive HTML report featuring
 
 ---
 
-## 🎯 Why This Tool
-
-### For Businesses
-- **Competitor Analysis** – Identify and analyze competitors in specific locations.
-- **Lead Generation** – Collect contact information for potential business partners or clients.
-- **Market Research** – Understand market density, ratings distribution, and location trends.
-
-### For Data Analysts
-- **Structured Data Collection** – Get clean, structured data ready for analysis.
-- **Geospatial Insights** – Extract location-based data for mapping and visualization projects.
-- **Automation** – Integrate the scraper into larger data pipelines for regular data collection.
-
-### For Developers
-- **Open Source** – Fully transparent codebase that you can modify and extend.
-- **Well-Documented** – Comprehensive documentation and code comments.
-- **Modular Design** – Easy to customize and integrate with other tools.
-
-### For Everyone
-- **Easy to Use** – Simple command-line interface with step-by-step guidance.
-- **No Coding Required** – Just run the script and follow the prompts.
-- **Free and Open Source** – No subscription fees or usage limits.
-
----
-
 ## 🚀 Installation
 
 ### Prerequisites
-
-Before installing, ensure you have the following:
 
 | Requirement | Version | Check Command |
 |-------------|---------|---------------|
@@ -125,4 +100,4 @@ pip install -r requirements.txt --break-system-packages
 playwright install chromium
 
 # Verify installation
-python3 gmaps_scraper.py --help
+python3 -c "import playwright, requests, rich; print('✅ All dependencies installed')"
